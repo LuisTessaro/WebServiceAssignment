@@ -1,5 +1,3 @@
-var express = require('express')
-
 var app = require('./config/config')()
 let port = process.argv[2] || 8542
 
